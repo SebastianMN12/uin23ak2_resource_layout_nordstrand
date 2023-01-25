@@ -94,7 +94,13 @@ const resources = [
             },
         ]
     },
-]
+];
+
+document.getElementById("sanity").innerHTML = resources.map(getResources);
+
+function getResources(item) {
+    return [item.category,item.text,item.sources].join("");
+}
 
 function openres(evt, resName) {
     // Declare all variables
