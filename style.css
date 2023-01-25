@@ -12,7 +12,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 1rem;
-    font-family: verdana;
+    font-family: arial;
     text-transform: uppercase;
     color: var(--darkgray);
     border: 1px solid var(--darkgray);
@@ -42,7 +42,7 @@ header {
     cursor: pointer;
     padding: 14px 16px;
     transition: 0.3s;
-    font-family: verdana;
+    font-family: arial;
     padding-left: 2rem;
     padding-right: 2rem;
     margin-right: 1rem;
@@ -66,7 +66,7 @@ header {
     padding: none;
     border: 1px solid #ccc;
     border-top: none;
-    font-family: verdana;
+    font-family: arial;
     max-width: var(--maxwidth);
     margin-top: 0;
     margin-left: 3rem;
